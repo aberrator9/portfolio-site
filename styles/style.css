@@ -1,0 +1,67 @@
+:root {
+    --color-primary: rgba(1, 81, 155, 0.822);
+    --color-secondary: rgba(0, 151, 138, 0.829);
+    --color-accent: #D6E8DB;
+    --color-highlight: #FFF8DE;
+}
+
+html {
+    background: linear-gradient(to left, var(--color-primary) 0%, var(--color-secondary) 100%) no-repeat left top,
+        url("../img/bg.jpg") no-repeat left bottom;
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    background-color: transparent;
+}
+
+h1,
+h2,
+a,
+p {
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: var(--color-highlight);
+}
+
+p {
+    text-align: left;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+hr {
+    color: var(--color-accent);
+    background-color: var(--color-accent);
+    height: 2px;
+    width: 70%;
+    transform: translate(20%, 0%);
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.text-link {
+    margin-top: 2em;
+    font-size: x-large;
+    text-decoration: none;
+    color: var(--color-highlight);
+    display: block;
+}
+
+.links-container {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.svg-icon {
+    fill: var(--color-accent);
+}
