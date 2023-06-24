@@ -1,2 +1,2 @@
 # Current progress
-![Screenshot 2023-05-13 222623](https://github.com/aberrator9/portfolio-site/assets/127802772/3b83d898-c7dc-429a-8fcf-45508d7e2adb)
+![Screenshot 2023-06-23 201706](https://github.com/aberrator9/portfolio-site/assets/127802772/3357ed5a-c8e3-42ed-9b66-4003c05596f6)
