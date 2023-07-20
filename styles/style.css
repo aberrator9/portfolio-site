@@ -45,6 +45,26 @@ hr {
     margin-bottom: 3em;
 }
 
+.hidden {
+    opacity: 0;
+    filter: blur(1px);
+    transition: ease-out 0.3s;
+    transform: translateX(-3%);
+    transition-delay: 0.3s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0%);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
 .text-link {
     margin-top: 2em;
     font-size: x-large;
