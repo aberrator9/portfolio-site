@@ -29,7 +29,7 @@ p {
     font-family: 'Lora', serif;
     /* font-family: 'Open Sans', sans-serif; */
     /* font-family: 'Roboto Slab', serif; */
-    color: var(--color-highlight);
+    color: whitesmoke;
     margin-bottom: 2rem;
 }
 
@@ -101,6 +101,16 @@ hr {
     width: 100%;
     max-height: 25rem;
 }
+
+/* change transition duration to control the speed of fade effect */
+.carousel-item {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0.3s;
+  }
 
 .center-horizontal{
     position: relative;
