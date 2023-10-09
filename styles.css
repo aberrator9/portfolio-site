@@ -29,7 +29,7 @@ p {
     font-family: 'Lora', serif;
     /* font-family: 'Open Sans', sans-serif; */
     /* font-family: 'Roboto Slab', serif; */
-    color: whitesmoke;
+    color: rgb(224, 226, 238);
     margin-bottom: 2rem;
 }
 
@@ -99,17 +99,17 @@ hr {
     -o-object-fit: contain;
        object-fit: contain;
     width: 100%;
-    max-height: 25rem;
+    max-height: 45vh;
 }
 
 /* change transition duration to control the speed of fade effect */
 .carousel-item {
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.2s ease-out;
   }
   
   .carousel-fade .active.carousel-item-start,
   .carousel-fade .active.carousel-item-end {
-    transition: opacity 0.3s;
+    transition: opacity 0.35s ease-in;
   }
 
 .center-horizontal{
