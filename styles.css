@@ -27,8 +27,6 @@ h6,
 a,
 p {
     font-family: 'Lora', serif;
-    /* font-family: 'Open Sans', sans-serif; */
-    /* font-family: 'Roboto Slab', serif; */
     color: rgb(224, 226, 238);
     margin-bottom: 2rem;
 }
@@ -102,7 +100,6 @@ hr {
     max-height: 45vh;
 }
 
-/* change transition duration to control the speed of fade effect */
 .carousel-item {
     transition: transform 0.2s ease-out;
   }
@@ -114,7 +111,6 @@ hr {
 
 .center-horizontal{
     position: relative;
-    /* border: 0.05em solid red; */
     margin: 0.8rem auto;
     justify-self: center;
 }
@@ -123,7 +119,7 @@ hr {
     margin:2rem 0;
 }
 
-.max-width-800{
-    max-width: 660px;
+.clamp-width{
+    max-width: 600px;
 }
 
