@@ -1,12 +1,9 @@
 :root {
-    --color-primary: rgba(1, 81, 155, 0.822);
-    --color-secondary: rgba(0, 151, 138, 0.829);
-    --color-accent: #D6E8DB;
-    --color-highlight: #FFF8DE;
+    --color-text: rgba(240, 246, 248, 0.829);
 }
 
 html {
-    background: linear-gradient(to right, rgb(28, 44, 93) 0%, rgb(28, 36, 61) 100%) no-repeat left top;
+    background: rgba(9, 81, 109, 0.829);
     background-repeat: repeat-y;
     background-size: cover;
     height: 100%;
@@ -27,7 +24,7 @@ h6,
 a,
 p {
     font-family: 'Lora', serif;
-    color: rgb(224, 226, 238);
+    color: var(--color-text);
     margin-bottom: 2rem;
 }
 
@@ -40,8 +37,7 @@ h1 {
 }
 
 hr {
-    color: var(--color-accent);
-    background-color: var(--color-accent);
+    color: var(--color-text);
     max-height: 2px;
     width: 20%;
 }
@@ -50,8 +46,8 @@ hr {
     opacity: 0;
     -webkit-filter: blur(1px);
             filter: blur(1px);
-    transition: ease-out 0.3s;
-    transform: translateX(-3%);
+    transition: ease 0.6s;
+    transform: translateX(3%);
     transition-delay: 0.3s;
 }
 
@@ -81,12 +77,12 @@ hr {
     margin-top: 2em;
     font-size: x-large;
     text-decoration: none;
-    color: var(--color-highlight);
+    color: var(--color-text);
     display: block;
 }
 
 .svg-icon {
-    fill: var(--color-accent);
+    fill: var(--color-text);
 }
 
 .carousel {
