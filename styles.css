@@ -16,11 +16,7 @@ body {
 }
 
 h1,
-h2,
 h3,
-h4,
-h5,
-h6,
 a,
 p {
     font-family: 'Lora', serif;
@@ -85,10 +81,6 @@ hr {
     fill: var(--color-text);
 }
 
-.carousel {
-    margin: 3rem 0;
-}
-
 .carousel img {
     -o-object-fit: contain;
        object-fit: contain;
@@ -111,11 +103,11 @@ hr {
     justify-self: center;
 }
 
-.btn {
-    margin:2rem 0;
+.clamp-660{
+    max-width: 660px;
 }
 
-.clamp-width{
-    max-width: 600px;
+.clamp-450{
+    max-width: 450px;
 }
 
