@@ -24,6 +24,11 @@ p {
     margin-bottom: 2rem;
 }
 
+h4 {
+    font-family: 'Lora', serif;
+    color: var(--color-text);
+}
+
 p {
     text-align: left;
 }
@@ -43,7 +48,7 @@ hr {
     -webkit-filter: blur(1px);
             filter: blur(1px);
     transition: ease 0.4s;
-    transform: translateX(2%);
+    transform: translateX(3%);
     transition-delay: 0.3s;
 }
 
